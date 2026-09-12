@@ -10,5 +10,10 @@ services:
       - PASSWORD=rstudio
     volumes:
       - .:/home/rstudio
-    tty: true 
+    tty: true
     stdin_open: true
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
