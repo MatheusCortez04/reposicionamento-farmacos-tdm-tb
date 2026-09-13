@@ -3,5 +3,6 @@
 *.csv
 *.RData
 *.Rdata
+.~lock.*#
 
 !drug_targets_DrugBank_Gysi.csv
