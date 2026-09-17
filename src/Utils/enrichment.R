@@ -12,7 +12,7 @@ source(here("src","Utils","graph_metrics.R"))
 enrichment_menu = function(){
   while(TRUE){
     clear_console()
-    cat("--- Evaluation Menu ---\n\n")
+    cat("--- Enrichment Menu ---\n\n")
     cat(" [1] Drug Set Enrichment Analysis MDD \n")
     cat(" [2] Drug Set Enrichment Analysis BD \n")
     cat(" [3] Over Representation Analysis MDD \n")
